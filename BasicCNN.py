@@ -2,8 +2,11 @@ import tensorflow as tf
 import numpy as np
 
 
-##### reference:
+'''
+To-do:
+
 #    http://ruishu.io/2016/12/27/batchnorm/
+'''
 
 class BasicCNN:
     def __init__(self, 
@@ -173,14 +176,14 @@ class BasicCNN:
 
     def _optimize(self, X, y):
         '''
-        return minimize operation
+        execute minimize()
         '''
         pass
 
 
     def _summarize(self, X, y):
         '''
-        save training curve
+        save performance metrics
         '''
         pass
 
